@@ -1,4 +1,4 @@
-﻿.navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -20,7 +20,8 @@
     transform: translateX(-50%);
     margin-left: 120px;
     z-index: 1;
-    pointer-events: none; /* prevents overlap issues */
+    /*pointer-events: none; /* prevents overlap issues */
+
 }
 
 .gold {

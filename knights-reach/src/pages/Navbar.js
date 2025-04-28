@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import "./Navbar.css"
 import "../App.css";
@@ -16,7 +16,8 @@ export default function Navbar({ user, setUser }) {
             </div>
 
             <div className="logo">
-                <img src="/Logo_1.png" alt="Knights Reach Logo" className="logo-img" />
+                <Link to="/"><img src="/Logo_1.png" alt="Knights Reach Logo" className="logo-img" /></Link>
+                
             </div>
 
             <div className="nav-links">
